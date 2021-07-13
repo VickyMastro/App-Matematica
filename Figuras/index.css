@@ -1,6 +1,36 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-color: gray;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
+.body-figures h2,p{
+    text-align: center;
+    color: rgb(197, 24, 53);
+}
+
+.body-figures h2{
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.card{
+    border: none ;
+}
+
+.card-header{
+    text-decoration: underline;
+}
+
+.card-header, button{
+    background-color: #ee9ca7 !important;
+    border: none ;
+    color: white !important;
+    
+}
+
+button:focus{
+    box-shadow: none !important;
+    background-color: rgb(197, 24, 53) !important;
+}
