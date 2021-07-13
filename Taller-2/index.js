@@ -1,5 +1,3 @@
-
-
 function calculador(){
     let precio = document.getElementById("value").value;
     let descuento = document.getElementById("discount").value;
@@ -7,7 +5,6 @@ function calculador(){
     let cuenta = (precio * (100 - descuento))/100;
     respuesta(cuenta);
 }
-
 /* function respuesta (count){
     let p = document.createElement("p");
     let msj = document.createTextNode("El valor final es " + count);
@@ -16,7 +13,6 @@ function calculador(){
     let contenedor = document.getElementById("div");
     document.body.insertBefore(p, contenedor)
 } */
-
 function respuesta (count){
     let p = document.getElementById("resultado");
     p.innerHTML = `El precio final es de ${count}`;
