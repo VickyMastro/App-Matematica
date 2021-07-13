@@ -19,56 +19,73 @@
     <section>
         <div class="container">
             <div class="row justify-content-around mt-5">
-                <div class="col-md-4 ">
-                    <div class="card text-center shadow-lg">
-                        <div class="card-header bg-primary">
+
+                <div class="col-md-6 ">
+
+                    <div class="card text-center shadow-lg mb-3">
+                        <div class="card-header">
                             <h4>Cuadrado</h4>
                         </div>
                         <div class="card-body">
                             <input type="number" class="form-control mb-3" id="cuadradoInput"
-                                placeholder="Ingrese lado del cuadrado">
+                                placeholder="Ingrese el lado">
                             <button class="btn" id="cuadradoPerBoton">Calcular Perimetro</button>
                             <button class="btn" id="cuadradoArBoton">Calcular Area</button>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 ">
-                    <div class="card text-center shadow-lg">
-                        <div class="card-header bg-primary">
+                    <div class="card text-center shadow-lg mb-3">
+                        <div class="card-header">
                             <h4>Triangulo</h4>
                         </div>
                         <div class="card-body">
-                            <input type="number" class="form-control mb-3" id="lado1"
-                                placeholder="Ingrese el primer del triangulo">
-                            <input type="number" class="form-control mb-3" id="lado2"
-                                placeholder="Ingrese el segundo lad del triangulo">
-                            <input type="number" class="form-control mb-3" id="base"
-                                placeholder="Ingrese la base del triangulo">
-                            <input type="number" class="form-control mb-3" id="altura"
-                                placeholder="Ingrese la altura del triangulo">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control mb-3" id="lado1"
+                                        placeholder="Ingrese uno de los lados">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control mb-3" id="lado2"
+                                        placeholder="Ingrese el otro lado">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control mb-3" id="base"
+                                        placeholder="Ingrese la base">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control mb-3" id="altura"
+                                        placeholder="Ingrese la altura">
+                                </div>
+                            </div>
                             <button class="btn" id="trianguloPerBoton">Calcular Perimetro</button>
                             <button class="btn" id="trianguloArBoton">Calcular Area</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <div class="col-md-6">
-                    <div class="card text-center shadow-lg">
-                        <div class="card-header bg-primary">
+
+                    <div class="card text-center shadow-lg mb-3">
+                        <div class="card-header">
                             <h4>Circulo</h4>
                         </div>
                         <div class="card-body">
                             <input type="number" class="form-control mb-3" id="circuloInput"
-                                placeholder="Ingrese el radio del circulo">
+                                placeholder="Ingrese el radio">
                             <button class="btn" id="circuloPerBoton">Calcular Perimetro</button>
                             <button class="btn" id="circuloArBoton">Calcular Area</button>
                             <button class="btn" id="circuloDiaBoton">Calcular Diametro</button>
-
-
                         </div>
                     </div>
+
+                </div>
+                <div class="col-md-6 ">
+                    <div class="card text-center shadow-lg mb-3">
+                        <div class="card-header">
+                            <h4>Resultado</h4>
+                        </div>
+                        <div class="card-body">
+                            algo
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
